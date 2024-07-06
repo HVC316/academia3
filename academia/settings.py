@@ -75,11 +75,11 @@ WSGI_APPLICATION = 'academia.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'academia',
-        'USER': 'web_academia',
-        'PASSWORD': 'emelec',
+        'NAME': 'Grupo2-Academia',
+        'USER': 'grupo2-academia',
+        'PASSWORD': 'Barcelona',
         'HOST': 'localhost',
-        'PORT': '5436',
+        'PORT': '5432',
     }
 }
 
